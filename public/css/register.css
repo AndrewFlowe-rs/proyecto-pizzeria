@@ -1,0 +1,87 @@
+.body-register .main-register {
+
+display: flex;
+
+padding: 39%;
+
+justify-content: center;
+
+align-items: center;
+}
+
+
+.main-register .form-register{
+
+justify-content: center;
+
+align-items: center;
+
+display: flex;
+
+flex-direction: column;
+
+border: solid 5px blue;
+
+border-radius: 10px;
+
+/* border-right: inset; */
+
+background-color: var(--facebok);
+
+margin: 0 auto;
+
+padding: 13%;
+}
+
+
+
+.main-register .form-register div{
+
+margin: 10px;
+}
+
+div {}
+
+
+
+.main-register .form-register .form-register .CONTENEDOR-T {}
+.main-register .form-register .form-register div {
+
+}
+
+
+
+.main-register .form-register label{
+
+display: inline-block;
+}
+
+
+
+
+
+.main-register .form-register input{
+
+border-radius: 10px;
+
+border: none;
+
+padding: 10px;
+}
+
+.main-register .form-register .conteiner-p-f {
+    
+/* display: inline-flex; */
+    
+flex-direction: column;
+}
+
+.main-register .form-register .conteiner-p-f label {
+
+/* display: inline; */
+}
+
+.main-register .form-register .conteiner-p-f input {
+    
+/* display: inline-block; */
+}
