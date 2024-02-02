@@ -1,16 +1,20 @@
 .body-register .main-register {
-display: flex;
-padding: 39%;
-justify-content: center;
-align-items: center;
-background-color: #dfceb6;
+
+    display: flex;
+
+    padding: 39%;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #dfceb6;
 }
 
 
-.main-register .form-register{
+.main-register .form-register {
 justify-content: center;
 align-items: center;
-display: flex;
 flex-direction: column;
 border: solid 5px #364f5d;
 border-radius: 10px;
@@ -18,59 +22,86 @@
 background-color: #364f5d;
 margin: 0 auto;
 padding: 13%;
+position: relative;
 }
 
-
-
-.main-register .form-register div{
-
-margin: 10px;
+.conteiner-t-r {
+    /* padding-bottom: 0px; */
 }
 
-div {}
-
-
-
-.main-register .form-register .form-register .CONTENEDOR-T {}
-.main-register .form-register .form-register div {
-
+.conteiner-t-r h4 {
+    color: white;
 }
 
+.main-register .form-register div {
+margin: 10px;
+padding-bottom: 13px;
+}
 
-
-.main-register .form-register label{
-
-display: inline-block;
+div {
+    width: 100;
 }
 
 
 
 
+.main-register .form-register .form-register div {}
 
-.main-register .form-register input{
+.main-register .form-register .form-register div h4 {
+    color: #dfceb6;
 
-border-radius: 10px;
+}
 
-border: none;
 
-padding: 10px;
+
+.main-register .form-register label {
+
+    display: inline-block;
+}
+
+
+
+
+
+.main-register .form-register input {
+
+    border-radius: 10px;
+
+    border: none;
+
+    padding: 10px;
+}
+.form-register .conteiner-x{
+    right: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+.form-register .conteiner-x i{
+    color: black;
 }
 
 .main-register .form-register .conteiner-p-f {
-    
-/* display: inline-flex; */
-    
-flex-direction: column;
+
+    /* display: inline-flex; */
+
+    flex-direction: column;
 }
 
-.main-register .form-register .conteiner-p-f label {
+.form-register .conteiner-p-f label {
 
-/* display: inline; */
+    /* display: inline; */
 }
 
-.main-register .form-register .conteiner-p-f input {
-    
-/* display: inline-block; */
+.form-register .conteiner-p-f input {
+
+    /* display: inline-block; */
 }
-.main-register .form-register .conteiner-butons {}
-.main-register .form-register .conteiner-butons button {}
+
+.main-register .container-butons {}
+
+.container-butons button {
+    background-color: green;
+    border-radius: 35px;
+    padding: 5px 10px;
+}

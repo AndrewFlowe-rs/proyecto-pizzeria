@@ -1,22 +1,63 @@
-.footer-pizza {}
-.footer-pizza .conteiner-pizza  {}
-.footer-pizza .conteiner-pizza i {}
+/*.footer-pizza {}
+.footer-pizza .conteiner-phone{}
+.footer-pizza .conteiner-phone i {}
 
 
-
-.footer-pizza .direction{}
+.footer-pizza .conteiner-locatio {}
 .footer-pizza .conteiner-location{}
+.footer-pizza .conteiner-location h2{}
+
 .footer-pizza .conteiner-location i{}
 .footer-pizza .conteiner-location h3{}
 
+.footer-pizza .redes  a{}
+
+.footer-pizza .redes img{}
 
 
+.footer-pizza .contenedor-copy{}
+.footer-pizza .contenedor-copy h2{}
+.footer-pizza .contenedor-copy p{}*/
 
-
-.footer-pizza .redes {}
-.footer-pizza .conteiner-icons {}
-.footer-pizza .conteiner-icons i {}
-.footer-pizza .conteiner-icons .face{}
-.footer-pizza .conteiner-icons .insta{}
-.footer-pizza .conteiner-icons .pint{}
-.footer-pizza .conteiner-icons .whats {}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .direccion, .footer .redes {
+    margin-bottom: 20px;
+}
+.footer .direccion p, .footer .redes p {
+    margin: 0;
+}
+.footer .direccion p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer .redes p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer .redes p:nth-child(2) {
+    margin-bottom: 5px;
+}
+.footer .redes p:nth-child(3) {
+    margin-bottom: 5px;
+}
+.footer .redes p:nth-child(4) {
+    margin-bottom: 5px;
+}
+.footer .redes p:nth-child(5) {
+    margin-bottom: 5px;
+}
+.footer .redes p:last-child {
+    font-size: 12px;
+    color: #6c757d;
+}
